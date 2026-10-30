@@ -1,6 +1,21 @@
-   .ipynb_checkpoints/
-   __pycache__/
-   .DS_Store
-   *.zip
-   .venv/
-   venv/
+# Jupyter
+.ipynb_checkpoints/
+.virtual_documents/
+
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Downloaded archives (the data is committed unzipped in data/)
+*.zip
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
